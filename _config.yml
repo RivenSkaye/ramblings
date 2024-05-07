@@ -7,7 +7,7 @@ destination: docs/
 exclude: [README.md, LICENSE-MPL, _config.yml]
 timezone: Europe/Amsterdam
 encoding: utf-8
-remote-theme: abhinavs/moonwalk
+remote-theme: cverrier/moonwalk
 
 theme_config:
   appearance: "auto"
@@ -24,3 +24,10 @@ theme_config:
   show_misc_list: false
   show_reading_time: false
   show_tags: true
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
