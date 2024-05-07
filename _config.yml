@@ -1,13 +1,13 @@
 title: Ramblings of an Alchemist
 author: Riven Skaye
-# url: https://skaye.blog
+url: https://skaye.blog
 description: Blog of someone doing pseudo-arcane things on computers.
 permalink: /:slug
 destination: docs/
 exclude: [README.md, LICENSE-MPL, _config.yml]
 timezone: Europe/Amsterdam
 encoding: utf-8
-remote-theme: cverrier/moonwalk
+remote-theme: abhinavs/moonwalk
 
 theme_config:
   appearance: "auto"
@@ -24,6 +24,9 @@ theme_config:
   show_misc_list: false
   show_reading_time: false
   show_tags: true
+  home:
+    title_about: About
+    title_blog: Past ramblings
 
 sass:
   style: :compressed
