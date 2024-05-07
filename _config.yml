@@ -1,6 +1,6 @@
 title: Ramblings of an Alchemist
 author: Riven Skaye
-url: https://skaye.blog
+# url: https://skaye.blog
 description: Blog of someone doing pseudo-arcane things on computers.
 permalink: /:slug
 destination: docs/
