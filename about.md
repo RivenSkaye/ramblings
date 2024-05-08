@@ -11,6 +11,7 @@ If you're here, you probably know who I am. If not, does that make me a niche mi
 I'm Riven Skaye, you can find me in most places under that name though you might need to remove the space or add an underscore. I'm a software engineer by day, and cursed code conjurer by night. My interests are pretty broad though; from horseback riding and archery to story-heavy games and animanga, light novels and normal books. I also do stuff like kitchen and bathroom remodels myself, for fun. I do all this with some unholy mix of rock, metal, j-pop, and some folk music. Y'know, the kind played on classical instruments like the violin, koto and harp. Oh and some classical as well, from time to time.
 
 ## About this blog
+
 Ramblings of an Alchemist is basically just a blog about whatever pet projects I have going on. That's usually code projects, but I might just start posting about other stuff from time to time. Topical blogs are fun, but I don't wanna end up having my life revolve around a single topic.
 
 As for specifics on what to expect, I have no idea. As of initial posting, I'm writing about a safe Rust interface for using Named Shared Memory on Windows so people can use its `shmem`/`mmap` equivalent without too much hassle.  

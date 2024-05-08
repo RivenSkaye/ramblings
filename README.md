@@ -6,7 +6,7 @@ title: README
 
 This is going to be a blog – or something like that. And it'll be that pretty soon, I hope!
 
-# Licensing
+## Licensing
 
 I hate legalese. I love sharing and (F)OSS. These licenses should help there.
 
