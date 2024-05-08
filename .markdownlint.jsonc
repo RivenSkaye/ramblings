@@ -1,0 +1,11 @@
+{
+    "default": true,
+    "MD025": {
+        "front_matter_title": ""
+    },
+    "MD013": false,
+    "MD012": {
+        // Consecutive blank lines
+        "maximum": 2
+    }
+}
