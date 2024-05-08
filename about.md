@@ -1,3 +1,7 @@
+---
+layout: default
+title: About
+---
 # Welcome, stranger
 
 If you're here, you probably know who I am. If not, does that make me a niche microceleb, or a well-liked shitposter? To be honest, both sound good.

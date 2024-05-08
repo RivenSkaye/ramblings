@@ -1,3 +1,7 @@
+---
+layout: post
+title: README
+---
 # Ramblings of an Alchemist
 
 This is going to be a blog – or something like that. And it'll be that pretty soon, I hope!
