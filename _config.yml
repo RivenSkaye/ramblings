@@ -10,7 +10,7 @@ encoding: utf-8
 remote-theme: abhinavs/moonwalk
 
 theme_config:
-  appearance: "auto"
+  appearance: "dark"
   appearance_toggle: true
   back_home_text: "return"
   date_format: "%F"
