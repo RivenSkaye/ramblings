@@ -34,3 +34,14 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+feed:
+  excerpt_only: true
+  posts_limit: 42
+  categories:
+    - winmmf
+    - rust
+    - tech
+    - personal
+    - alice
+    - irl
