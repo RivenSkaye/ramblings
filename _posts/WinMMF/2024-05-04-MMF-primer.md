@@ -3,7 +3,7 @@ layout: post
 author: Riven Skaye
 tags: [intro, ipc, windows, shared_mem, winmmf, rust, tech]
 permalink: WinMMF/mmf-primer
-is_series: true
+series: WinMMF
 ---
 # Users, bugs, and technical limitations
 
