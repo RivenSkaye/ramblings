@@ -13,7 +13,7 @@ remote-theme: abhinavs/moonwalk
 theme_config:
   appearance: "dark"
   appearance_toggle: true
-  back_home_text: "return"
+  back_home_text: "Back to Home"
   date_format: "%F"
   show_description: true
   show_navbar: true
