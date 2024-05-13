@@ -19,7 +19,7 @@
       <p class="body">
         {{ item.desc }}
         {% if item.series %}
-        <br>Relevant posts: <a href="{{ item.series.url }}">{{ item.series.name }}</a>
+        <br>Relevant posts: <a href="{{ item.series.url | relative_url }}">{{ item.series.name }}</a>
         {%endif %}
       </p>
       {% endif %}

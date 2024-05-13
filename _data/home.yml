@@ -13,8 +13,8 @@ project_entries:
     url: https://www.github.com/RivenSkaye/WinMMF-rs
     desc: Working with Named Shared Memory on Windows.
     series:
-      - url: mmf-primer
-        name: WinMMF - suffering with named shared memory
+      url: mmf-primer
+      name: WinMMF
 
 #old_project_entries:
 #  - title: Soopr
