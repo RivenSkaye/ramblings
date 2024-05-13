@@ -11,7 +11,7 @@ navbar_entries:
 project_entries:
   - title: WinMMF-rs
     url: https://www.github.com/RivenSkaye/WinMMF-rs
-    desc: Named Shared Memory, leveraging a non-persisted memory mapping backed by the pagefile.
+    desc: Working with Named Shared Memory on Windows.
     series:
       - url: mmf-primer
         name: WinMMF - suffering with named shared memory
