@@ -5,6 +5,7 @@ description: Blog of someone doing pseudo-arcane things on computers.
 permalink: /:slug
 destination: docs/
 exclude: [_config.yml]
+include: [LICENSE-MIT, LICENSE-MPL]
 timezone: Europe/Amsterdam
 encoding: utf-8
 remote-theme: abhinavs/moonwalk
