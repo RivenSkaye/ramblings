@@ -4,7 +4,7 @@ url: https://skaye.blog
 description: Blog of someone doing pseudo-arcane things on computers.
 permalink: /:slug
 destination: docs/
-exclude: [README.md, LICENSE-MPL, _config.yml]
+exclude: [_config.yml]
 timezone: Europe/Amsterdam
 encoding: utf-8
 remote-theme: abhinavs/moonwalk
@@ -18,7 +18,7 @@ theme_config:
   show_navbar: true
   show_footer: true
   show_copyright: true
-  show_projects: false
+  show_projects: true
   show_blog: true
   show_old_projects: false
   show_misc_list: false
