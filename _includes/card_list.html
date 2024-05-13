@@ -17,6 +17,9 @@
         {% if item.desc != false %}
         <p class="body">
           {{ item.desc }}
+          {% if item.series %}
+          Relevant posts: <a href="{{ item.series.url }}">{{ item.series.name }}</a>
+          {%endif %}
         </p>
         {% endif %}
       </a>

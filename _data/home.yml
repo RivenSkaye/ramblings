@@ -1,14 +1,20 @@
 navbar_entries:
-  - title: about
+  - title: About
     url: about
 
-  - title: blog
+  - title: Other info
+    url: README
+
+  - title: Blog
     url: blog
 
 project_entries:
   - title: WinMMF-rs
     url: https://www.github.com/RivenSkaye/WinMMF-rs
     desc: Named Shared Memory, leveraging a non-persisted memory mapping backed by the pagefile.
+    series:
+      - url: mmf-primer
+        name: WinMMF - suffering with named shared memory
 
 #old_project_entries:
 #  - title: Soopr
