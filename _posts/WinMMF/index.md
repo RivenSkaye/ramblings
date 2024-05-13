@@ -3,6 +3,7 @@ layout: post
 author: Riven Skaye
 tags: [winmmf]
 title: ""
+permalink: WinMMF/index
 ---
 # WinMMF series index
 
