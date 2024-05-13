@@ -3,7 +3,7 @@ layout: default
 ---
 
 <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
-{% if page.series %} <a href="{{ page.series | relative_url }}">Up to series index</a> {% endif %}
+{% if page.series %} <a href="{{ page.series | relative_url }}/overview">Up to series index</a> {% endif %}
 <h1 class="post-title">{{ page.title }}</h1>
 {% include date_and_social_share.html %}
 {{ content }}
