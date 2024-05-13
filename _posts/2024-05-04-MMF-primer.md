@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Riven Skaye
-tags: [intro, ipc, windows, shared_mem, ]
+tags: [intro, ipc, windows, shared_mem ]
 ---
 # Users, bugs, and technical limitations
 
