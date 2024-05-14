@@ -2,7 +2,7 @@ title: Ramblings of an Alchemist
 author: Riven Skaye
 url: https://skaye.blog
 description: Blog of someone doing pseudo-arcane things on computers.
-permalink: /:slug
+permalink: /:slug/:categories/:title
 destination: docs/
 exclude: [_config.yml]
 include: [LICENSE-MIT, LICENSE-MPL]
@@ -47,8 +47,3 @@ feed:
     - personal
     - alice
     - irl
-
-collections:
-  winmmf-rs:
-    output: true
-    permalink: /:collection/:title
