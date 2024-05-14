@@ -22,7 +22,7 @@
       </p>
       <hr>
       <p class="body">
-        Read the <a href="{{ item.category | relative_url }}/{{ item.name }}" style="display: inline;">first {{ item.series }} post</a> for more info!
+        Read the <a href="{{ item.series.name | relative_url }}/overview" style="display: inline;">{{ item.series.name }} overview</a> for more info!
         {%endif %}
       </p>
       {% endif %}
