@@ -3,7 +3,7 @@ layout: post
 author: Riven Skaye
 tags: [intro, ipc, windows, shared_mem, winmmf, rust, tech]
 series: WinMMF
-category: WinMMF
+category: winmmf
 title: WinMMF - a primer
 ---
 ## Users, Bugs and Technical Limitations
