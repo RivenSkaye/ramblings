@@ -3,8 +3,12 @@ layout: post
 author: Riven Skaye
 tags: [intro, ipc, windows, shared_mem, winmmf, rust, tech]
 series: WinMMF
+category: WinMMF
+title: WinMMF - a primer
 ---
-# Users, bugs, and technical limitations
+## Users, Bugs and Technical Limitations
+
+A short introduction on how users report something as a major issue is really just a minor inconvenience due to technical limitations.
 
 ## A primer on how WinMMF-rs came to be
 
