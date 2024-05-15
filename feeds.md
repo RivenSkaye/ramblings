@@ -33,7 +33,7 @@ Using the nice and easy [`jekyll-feed` plugin](https://github.com/jekyll/jekyll-
 
 - [Global feed for all posts](/feed.xml)
 {%- if tags -%}
-  {%- for feedtag in tags -%}
+  {%- for feedtag in tags %}
 - [{{ feedtag }} feed](/feed/{{ feedtag }}.xml)
   {%- endfor -%}
 {% endif %}
