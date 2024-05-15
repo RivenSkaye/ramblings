@@ -12,8 +12,8 @@ riven_says_thanks_to: https://rfong.github.io/rflog/2020/02/28/jekyll-tags/
 {%- assign rawtags = rawtags | split:'|' | sort -%}
 
 {%- assign ignored = "" -%}
-{%- if site.feed.tags.except and site.feed.tags and site.feed -%}
-  {%- assign ignored = site.feed.tags.except | join:'|' -%}
+{%- if site.ignored_tags -%}
+  {%- assign ignored = site.ignored_tags | join:'|' -%}
 {%- endif -%}
 {%- assign tags = "" -%}
 {%- for tag in rawtags -%}
