@@ -1,7 +1,8 @@
 ---
 layout: post
 author: Riven Skaye
-tags: [winmmf]
+tags: [ipc, windows, shared-mem, winmmf, rust, tech]
+category: winmmf
 title: ""
 permalink: winmmf/overview
 cat: WinMFF
