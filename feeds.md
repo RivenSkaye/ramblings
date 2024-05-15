@@ -1,7 +1,6 @@
 ---
 layout: post
 author: Riven Skaye
-tags: [winmmf]
 title: "Atom feeds"
 riven_says_thanks_to: https://rfong.github.io/rflog/2020/02/28/jekyll-tags/
 ---
