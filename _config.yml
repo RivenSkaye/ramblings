@@ -42,15 +42,16 @@ feed:
   posts_limit: 42
   tags:
     except:
-      - ipc
       - windows
-      - shared_mem
+      - shared-mem
+      - intro
+
     path: "/feed/"
 
 ignored_tags:
-  - ipc
   - windows
-  - shared_mem
+  - shared-mem
+  - intro
 #  - winmmf
 #  - rust
 #  - tech
