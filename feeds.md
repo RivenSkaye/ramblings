@@ -35,5 +35,5 @@ Using the nice and easy [`jekyll-feed` plugin](https://github.com/jekyll/jekyll-
 {%- if tags -%}
   {%- for feedtag in tags %}
 - [{{ feedtag }} feed](/feed/{{ feedtag }}.xml)
-  {%- endfor -%}
+  {% endfor -%}
 {% endif %}
