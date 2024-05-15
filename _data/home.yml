@@ -5,9 +5,6 @@ navbar_entries:
   - title: Other info
     url: README
 
-  - title: Blog
-    url: blog
-
 project_entries:
   - title: WinMMF-rs
     url: https://www.github.com/RivenSkaye/WinMMF-rs
@@ -27,6 +24,12 @@ footer_entries:
 
   - title: feed
     url: feed.xml
+
+  - title: Code under MPL
+    url: /LICENSE-MPL-2.0.txt
+
+  - title: Theme under MIT
+    url: /LICENSE-MIT.txt
 
 misc_entries:
   - title: Blog posts
