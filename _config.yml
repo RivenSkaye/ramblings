@@ -40,14 +40,15 @@ plugins:
 feed:
   excerpt_only: true
   posts_limit: 42
-  tags:
-    except:
-      - ipc
-      - windows
-      - shared_mem
-#    - winmmf
-#    - rust
-#    - tech
-#    - personal
-#    - alice
-#    - irl
+  tags: true
+
+ignored_tags:
+  - ipc
+  - windows
+  - shared_mem
+#  - winmmf
+#  - rust
+#  - tech
+#  - personal
+#  - alice
+#  - irl
