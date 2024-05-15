@@ -45,7 +45,6 @@ feed:
       - windows
       - shared-mem
       - intro
-
     path: "/feed/"
 
 ignored_tags:
