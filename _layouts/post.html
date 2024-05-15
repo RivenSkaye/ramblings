@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
-{% if page.series %} <a style="border-left: 1px; padding-left: 1px;" href="{{ page.category | relative_url }}/overview">Up to series index</a> {% endif %}
+<a class="buttonlink" href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
+{% if page.series %} <a class="buttonlink" style="border-left: 1px; padding-left: 1px;" href="{{ page.category | relative_url }}/overview">Up to series index</a> {% endif %}
 <h1 class="post-title">{{ page.title }}</h1>
 {% include date_and_social_share.html %}
 {{ content }}
