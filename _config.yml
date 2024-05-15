@@ -40,7 +40,13 @@ plugins:
 feed:
   excerpt_only: true
   posts_limit: 42
-  tags: true
+  tags:
+    except:
+      - ipc
+      - windows
+      - shared_mem
+    path: "/feed/"
+
 
 ignored_tags:
   - ipc
