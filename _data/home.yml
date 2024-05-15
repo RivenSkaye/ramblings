@@ -19,8 +19,8 @@ project_entries:
 #    highlight: NEW
 
 footer_entries:
-  - title: RSS feed
-    url: feed.xml
+  - title: Atom feeds
+    url: /feeds
 
   - title: My GitHub
     url: https://www.github.com/RivenSkaye
