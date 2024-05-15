@@ -1,6 +1,6 @@
 <p class="post-date text-bold">
   {% if page.author %}
-    <span class="text-upcase">{{ page.author }}</span> / 
+    <span class="text-upcase">{{ page.author }}</span> /
   {% endif %}
   {% if page.date %}
     <span class="text-upcase">{{ page.date | date: "%B %Y"}}</span>
@@ -25,7 +25,7 @@
 {% if site.theme_config.show_tags == true %}
   <div class="">
     {% for tag in page.tags %}
-    <span class="tag">{{ tag }}</span>
+    <span class="tag" style="color: var(--text-secondary); text-decoration: none;"><a href="/feed/{{ tag }}.xml">+ {{ tag }}</a></span>
     {% endfor %}
   </div>
 {% endif %}
