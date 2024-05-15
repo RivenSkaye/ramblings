@@ -19,11 +19,11 @@ project_entries:
 #    highlight: NEW
 
 footer_entries:
-  - title: Riven's git
-    url: https://www.github.com/RivenSkaye
-
-  - title: feed
+  - title: RSS feed
     url: feed.xml
+
+  - title: My GitHub
+    url: https://www.github.com/RivenSkaye
 
   - title: Code under MPL
     url: /LICENSE-MPL-2.0.txt
