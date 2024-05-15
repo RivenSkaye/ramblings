@@ -24,8 +24,18 @@
 
 {% if site.theme_config.show_tags == true %}
   <div class="">
+    {%- assign ignored = "" -%}
+    {%- if site.ignored_tags -%}
+      {%- assign ignored = site.ignored_tags | join:'|' -%}
+    {%- endif -%}
     {% for tag in page.tags %}
-    <span class="tag" style="color: var(--text-secondary); text-decoration: none;"><a href="/feed/{{ tag }}.xml">+ {{ tag }}</a></span>
+    <span class="tag">
+      {% if ignored contains tag %}
+        + {{ tag }}
+      {% else %}
+        <a href="/feed/{{ tag }}.xml" style="color: var(--links); text-decoration: none;">+ {{ tag }}</a>
+      {% endif %}
+    </span>
     {% endfor %}
   </div>
 {% endif %}
