@@ -45,12 +45,14 @@ feed:
       - windows
       - shared-mem
       - intro
+      - fluff
     path: "/feed/"
 
 ignored_tags:
   - windows
   - shared-mem
   - intro
+  - fluff
 #  - winmmf
 #  - rust
 #  - tech
