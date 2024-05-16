@@ -21,7 +21,7 @@ riven_says_thanks_to: https://rfong.github.io/rflog/2020/02/28/jekyll-tags/
   {%- unless tags contains tag or ignored contains tag -%}
     {%- if tag != "" -%}
       {%- if tags == "" -%}
-        {%- assign tags = tag | split:'|' -%}
+        {%- assign tags = tag -%}
       {%- endif -%}
       {%- assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' -%}
     {%- endif -%}
