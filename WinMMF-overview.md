@@ -15,4 +15,5 @@ for the only method that Windows provides that does not leverage the TCP stack.
 Posts currently in this series:
 
 - [The primer](./mmf-primer)
+- [Getting Started](./mmf-getting-started)
 - _To be continued..._
