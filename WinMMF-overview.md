@@ -16,4 +16,5 @@ Posts currently in this series:
 
 - [The primer](./mmf-primer)
 - [Getting Started](./mmf-getting-started)
-- _To be continued..._
+- [A tale of Wrappers, births and crates](./mmf-wrappers-births-crates)
+- End of the saga
