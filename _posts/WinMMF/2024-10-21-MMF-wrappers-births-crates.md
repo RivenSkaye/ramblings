@@ -7,11 +7,11 @@ category: winmmf
 title: WinMMF - Making a Rusty wrapper
 ---
 
-# Wrapping MMFs with Rust
+# Wrappers, births and crates
 
 As I wrote [back in may](./mmf-primer), then [continued a few days later and stalled](./mmf-getting-started) for like five months, it's proven possible to use Rust to access Named Shared Memory in Windows. And not just that, I have [a very real crate](https://crates.io/crates/winmmf) that provides a full implementation of it in a working state. It's time to ~~spread more salt~~ talk further development after a few months of radio silence!
 
-## How we're implementing this
+## And now we're wrapping MMFs with Rust
 
 So, I'm trying to share large chunks of memory. And I somehow have to ensure several hard things. I'll need to make sure nobody reads while I'm writing, and the other way around. I'll need to make sure that locking is atomic, too. No sense in me taking the lock if you can't see that when you do the same. Oh, and I need to find a way to share that lock to _everyone else that uses the MMF_. Yeah okay, we can do that I think? At least, that's how it felt at first. And then [my buddy Joel](https://github.com/xacrimon) pointed out [reordering risks](https://github.com/RivenSkaye/WinMMF-rs/issues/5) and [some lock safety things](https://github.com/RivenSkaye/WinMMF-rs/issues/6). Though granted, we did discuss some stuff and he gave me some pointers on how to make this code _actually_ safe in a multiprocess environment. Thanks Joel!
 
