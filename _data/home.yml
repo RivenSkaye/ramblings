@@ -24,6 +24,7 @@ footer_entries:
 
   - title: My GitHub
     url: https://www.github.com/RivenSkaye
+    relme: true
 
   - title: Code under MPL
     url: /LICENSE-MPL-2.0.txt
