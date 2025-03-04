@@ -5,9 +5,9 @@
   <meta name="darkreader-lock">
   <title>
     {% if page.title %}
-      {{ page.title }} - {{ site.title }}
+    {{ page.title }} - {{ site.title }}
     {% else %}
-      {{ site.title }}
+    {{ site.title }}
     {% endif %}
   </title>
 
@@ -24,11 +24,14 @@
   <meta name="msapplication-TileColor" content="#00aba9">
   <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
+  <link rel="me" href="https://github.com/RivenSkaye">
+  <link rel="me" href="https://libre.fm/user/RivenSkaye">
+  <link rel="me" href="https://www.last.fm/user/FokjeMoer">
   <!-- Favicon -->
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
   {% if site.theme_config.appearance_toggle %}
-    {% include toggle_theme_js.html %}
+  {% include toggle_theme_js.html %}
   {% endif %}
 
   {%- include custom_head.html -%}
