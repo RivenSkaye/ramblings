@@ -19,11 +19,5 @@ As for specifics on what to expect, I have no idea. As of initial posting, I'm w
 The one thing I _do_ know is that I don't expect to get many readers. Writing is honestly just one of those things I find fun to do. And something mildly informational might be useful for backreading my own progress, or to point someone else at for more information. If you do like it, or if you have any feedback, poke me on Discord as `@rivenskaye` or [shoot me an email](mailto:riven@tae.moe). Yes, I use old people communication too! I also take paper mail by post, pigeon, or owl if you must, but please contact me elsewhere for the address to send it to first.  
 No, I do NOT want thigh highs mailed to my house. I'm not naming anyone, froststare and dapper know who they are ❤️
 
-## Links and stuff
-
-This is very much a WIP, and really only started due to [libre.fm very politely asking its users](https://github.com/foocorp/hacienda/issues/39) to <a href="https://libre.fm/user/RivenSkaye" rel="me">link to their own profile</a> with a `rel="me"`.
-
-
-
 ------
 Made with ❤️ and fear of 💀 and UB
