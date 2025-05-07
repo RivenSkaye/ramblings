@@ -14,4 +14,4 @@ All code examples in this blog are licensed under the MPL 2.0, which can be foun
 
 The theme in use for this blog is the [MIT-licensed](./LICENSE-MIT.txt) [Moonwalk](https://github.com/abhinavs/moonwalk). Any edits I have made or will make to the theme will be licensed the same.
 
-If you'd like to use (parts of) the blog in a manner incompatible with these licenses, you can [email me](mailto:riven+blog@tae.moe) the what, how, and why and I might decide to grant you the non-transferrable, single use right to use it otherwise.
+If you'd like to use (parts of) the blog in a manner incompatible with these licenses, you can [email me](mailto:riven+blog@tae.moe) the what, how, and why and I might look into ways I can help you.
