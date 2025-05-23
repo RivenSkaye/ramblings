@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-gemspec
-jekyll-sitemap
+gem 'gemspec'
+gem 'jekyll-sitemap'
+gem 'jekyl-feed'
+gem 'jekyll-seo-optimization'
